@@ -1,9 +1,15 @@
 {
   "posts": [
-    { "id": 1, "title": "json-server", "author": "mitkeys" }
+    { "id": 1, "title": "json-server", "author": "mitkeys" },
+    { "id": 2, "title": "otro", "author": "pop" },
+    { "id": 3, "title": "algo", "author": "otro" },
+    { "id": 4, "title": "importante", "author": "ramon" },
+    { "id": 5, "title": "para", "author": "kari" },
+    { "id": 6, "title": "pop", "author": "vela" }
   ],
   "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
+    { "id": 1, "body": "some comment", "postId": 1 },
+    { "id": 2, "body": "hey", "postId": 2 }
   ],
   "profile": { "name": "mitkeys" }
 }

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<head>
+    <title>API-Simple</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <p class="badge bg-light text-wrap" style="width: 20rem; color:black;">
+        Fill all the fields to create a new post with custom information<br>
+        Fill the id field to search, delete or modify an existing post<br>
+        </p><br>
+        <button class = "btn btn-primary" id="get">Get All</button>
+        <button class = "btn btn-primary" id="get_id">Get by Id</button>
+        <button class = "btn btn-primary" id="create">Create</button>
+        <button class = "btn btn-primary" id="update">Update</button>
+        <button class = "btn btn-primary" id="delete">Delete</button>
+    
+        <input class="form-control form-control-lg" id = "id" type="text" placeholder="id" aria-label=".form-control-lg example">
+        <input class="form-control form-control-lg" type="text" id= "title" placeholder="title" aria-label=".form-control-lg example">
+        <input class="form-control form-control-lg" id = "author" type="text" placeholder="author" aria-label=".form-control-lg example">
+        <div id='container'></div>
+
+        <div >
+            <p class="badge bg-light text-wrap" style="width: 20rem; color:black;" id="message"></p>
+        </div>
+        <script type="text/javascript" src="app.js"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</body>
